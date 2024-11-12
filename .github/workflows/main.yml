@@ -15,11 +15,12 @@ jobs :
           chrome-version: stable
       - name: Pip Install
         run: pip install -r requirements.txt
+      - name: Validate Chrome and Chromedriver
+        run: |
+          google-chrome --version
+          chromedriver --version
       - name: Behave Test
         env:
           HEADLESS: 'true'
-          CHROMEDRIVER_PATH : /usr/local/bin/chromedriver
         run: |
-          google-chrome -version
-          chromedriver --version
           behave
