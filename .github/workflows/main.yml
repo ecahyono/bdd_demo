@@ -1,0 +1,19 @@
+name: Behave Python Demo
+on: [push, pull_request]
+jobs :
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.12.2
+      - name: Chrome Install
+        uses: browser-actions/setup-chrome@latest
+        with:
+          chrome-version: stable
+      - name: Pip Install
+        run: pip install -r requirements.txt
+      - name: Behave Test
+        run: behave
