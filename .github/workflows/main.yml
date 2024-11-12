@@ -16,7 +16,10 @@ jobs :
       - name: Pip Install
         run: pip install -r requirements.txt
       - name: Behave Test
+        env:
+          HEADLESS: 'true'
+          CHROMEDRIVER_PATH : /usr/local/bin/chromedriver
         run: |
-          chrome -version
+          google-chrome -version
           chromedriver --version
-          HEADLESS=true behave
+          behave
