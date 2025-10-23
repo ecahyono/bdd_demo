@@ -8,7 +8,7 @@ This is a Behavior-Driven Development (BDD) project using Behave and Selenium fo
 - Automated browser setup and teardown
 - CI/CD integration with GitHub Actions
 - Comprehensive logging with log file generation
-- Test artifacts upload in CI pipeline
+- Test artifacts upload in CI pipeline (GitHub Actions)
 
 ## Project Structure
 
