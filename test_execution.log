@@ -1,0 +1,24 @@
+2025-10-23 23:32:46,658 - builtins - INFO - Starting scenario: Success Login with correct credential
+2025-10-23 23:32:47,939 - builtins - INFO - Browser initialized successfully
+2025-10-23 23:32:47,941 - builtins - INFO - Navigating to the login page
+2025-10-23 23:33:02,736 - builtins - INFO - Successfully navigated to login page
+2025-10-23 23:33:02,737 - builtins - INFO - Filling in correct credentials
+2025-10-23 23:33:02,890 - builtins - INFO - Credentials filled successfully
+2025-10-23 23:33:02,892 - builtins - INFO - Clicking the Sign in button
+2025-10-23 23:33:02,963 - builtins - INFO - Sign in button clicked
+2025-10-23 23:33:02,964 - builtins - INFO - Verifying successful login
+2025-10-23 23:33:03,632 - builtins - INFO - Login verification successful
+2025-10-23 23:33:03,633 - builtins - INFO - Ending scenario: Success Login with correct credential
+2025-10-23 23:33:05,800 - builtins - INFO - Browser closed successfully
+2025-10-23 23:33:05,801 - builtins - INFO - Starting scenario: Failed Login with Wrong credential
+2025-10-23 23:33:07,071 - builtins - INFO - Browser initialized successfully
+2025-10-23 23:33:07,073 - builtins - INFO - Navigating to the login page
+2025-10-23 23:33:10,570 - builtins - INFO - Successfully navigated to login page
+2025-10-23 23:33:10,571 - builtins - INFO - Filling in wrong credentials
+2025-10-23 23:33:10,711 - builtins - INFO - Wrong credentials filled
+2025-10-23 23:33:10,712 - builtins - INFO - Clicking the Sign in button
+2025-10-23 23:33:10,785 - builtins - INFO - Sign in button clicked
+2025-10-23 23:33:10,786 - builtins - INFO - Verifying login failure
+2025-10-23 23:33:11,468 - builtins - INFO - Login failure verification successful
+2025-10-23 23:33:11,469 - builtins - INFO - Ending scenario: Failed Login with Wrong credential
+2025-10-23 23:33:13,644 - builtins - INFO - Browser closed successfully

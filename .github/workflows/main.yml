@@ -24,3 +24,9 @@ jobs :
           HEADLESS: 'true'
         run: |
           behave
+      - name: Upload Test Logs
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-logs
+          path: test_execution.log
